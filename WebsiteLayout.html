@@ -1,0 +1,61 @@
+<!doctype html>
+<title>Example</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+ 
+  .col-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: beige;
+    align-items: center;
+    height: 400px;
+  }
+.one,.two,.three{
+    width: 300px;
+    background-color: orange;
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 30vh;
+  }
+  </style>
+<body>
+  
+  <div class="col-1">
+  	<header>Header</header>
+    <main class="content">
+    <div class="one">
+      <h1>First Article</h1>
+      <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions. </p>
+   
+    </div>
+    <div class="two">
+      <h1>Second Article</h1>
+     <p> The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</p>
+    </div>
+    <div class="three">
+      <h1>Third Article</h1>
+      <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+    </div>
+    </main>
+  	<footer>Footer</footer>
+  </div>
+</body>
